@@ -1,0 +1,20 @@
+{
+  "name": "group3git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alireza-HN/group3git.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alireza-HN/group3git/issues"
+  },
+  "homepage": "https://github.com/Alireza-HN/group3git#readme"
+}
