@@ -12,10 +12,25 @@ http.createServer(function (req, res) {
     }
     //root-route configed
 
+    else if (req.url === '/home') {
+        res.end("We are in Home page");
+    }
+    //Home-page
+    
     else if (req.url === '/api') {
         res.end(JSON.stringify(data));
     }
     //api-route configed
+
+    else if (req.url === '/about') {
+        res.end("About me");
+    } 
+    //About-page
+
+    else if (req.url === '/contact') {
+        res.end("contact with us");
+    } 
+    //Contact-page
 
     else {
         res.end("<h1>404</h1><h3>Not Found</h3>");
