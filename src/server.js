@@ -16,7 +16,7 @@ http.createServer(function (req, res) {
         res.end("We are in Home page");
     }
     //Home-page
-    
+
     else if (req.url === '/api') {
         res.end(JSON.stringify(data));
     }
