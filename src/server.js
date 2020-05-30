@@ -4,6 +4,9 @@ const data = require('../data/json.json');
 
 //config server
 http.createServer(function (req, res) {
+    console.log(req.url);
+    //show url on back-end Terminal
+
     if (req.url === '/') {
         res.end("Hello World");
     }
