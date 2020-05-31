@@ -1,5 +1,9 @@
 body{
     text-align: center;
     background-color: #2d2d2d;
-    color: antiquewhite;
+    color: #969696;
+}
+
+img {
+    width: 100%;
 }
