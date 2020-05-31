@@ -37,6 +37,14 @@ http.createServer(function (req, res) {
         //read hello.html
     }
     //hello-page
+    else if(req.url==='/style.css'){
+        fs.readFile(path.join(__dirname, "../public/style/style.css"), (err, file) => {
+            if (err) return console.log("Unable to read style.css");
+            res.end(file.toString());
+        });
+        //read style.css
+    }
+    //style-render
     else {
         res.end("<h1>404</h1><h3>Not Found</h3>");
     }
